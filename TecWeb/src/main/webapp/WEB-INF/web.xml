@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>TecWeb</display-name>
+  <welcome-file-list>
+    <welcome-file>TecWeb/Login.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ControllerUsuario</display-name>
+    <servlet-name>ControllerUsuario</servlet-name>
+    <servlet-class>br.com.curso.controller.ControllerUsuario</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ControllerUsuario</servlet-name>
+    <url-pattern>/ControllerUsuario</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+    <description></description>
+    <display-name>ControllerCliente</display-name>
+    <servlet-name>ControllerCliente</servlet-name>
+    <servlet-class>br.com.curso.controller.ControllerCliente</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ControllerCliente</servlet-name>
+    <url-pattern>/ControllerCliente</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<description></description>
+    <display-name>ControllerFuncionario</display-name>
+    <servlet-name>ControllerFuncionario</servlet-name>
+    <servlet-class>br.com.curso.controller.ControllerFuncionario</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ControllerFuncionario</servlet-name>
+    <url-pattern>/ControllerFuncionario</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>ControllerFornecedor</display-name>
+    <servlet-name>ControllerFornecedor</servlet-name>
+    <servlet-class>br.com.curso.controller.ControllerFornecedor</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ControllerFornecedor</servlet-name>
+    <url-pattern>/ControllerFornecedor</url-pattern>
+  </servlet-mapping>
+</web-app>
