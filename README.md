@@ -2,6 +2,6 @@
 O projeto tem como objetivo coloca em pratica tudo que foi ensinado na disciplina. o projeto contem as seguintes tecnologia: 
 - Mysql  
 - HIbernate 
-- JSP -
+- JSP
 - Filtro API.
 - Docker
